@@ -51,6 +51,7 @@ Command to run the docker image which we created in the previous step
 Command to login to the K8s cluster from Cloud Shell
 
 `gcloud container clusters get-credentials techprimer-cluster-1 --zone  us-central1-a`
+Note: techprimer-cluster-1 is name of google k8s cluster
 
 ## Kubernetes Commands
 ### List Pods
@@ -64,6 +65,7 @@ Command to login to the K8s cluster from Cloud Shell
 
 ### Deploy an image
 `kubectl run spring-boot-example --image=gcr.io/$GOOGLE_CLOUD_PROJECT/spring-boot-example:v1 --port=8080`
+Note: sprint-boot-example is name of docker image created by target 
 
 ### Expose Load Balancer
 `kubectl expose deployment spring-boot-example --type=LoadBalancer`
