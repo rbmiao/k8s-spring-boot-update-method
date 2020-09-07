@@ -1,5 +1,7 @@
 # Kubernetes Spring Boot Example in Google Kubernetes Engine (GKE)
 
+Some background is at [https://github.com/rbmiao/sprint-boot-init](https://github.com/rbmiao/sprint-boot-init)
+
 Table of Contents
 =================
 
